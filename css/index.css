@@ -40,7 +40,15 @@ body {
   min-width: 140px;
 }
 .menu li:hover >ul{
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -11px;
+  border-radius: 0 0 15px 15px;
+  background: white;
+  box-shadow: 5px 5px 2px black;
+
 }
 .menu li ul li{
   position: relative;
@@ -263,7 +271,7 @@ margin-right: 20px;
   position: relative;
   width:180px;
   height: 250px;
-  justify-content: center
+  justify-content: center;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
 }
@@ -318,3 +326,7 @@ margin-right: 20px;
   .contacto span {
     font-size: 20px;
   }
+
+.menu-juegos ul {
+  background: white;
+}
